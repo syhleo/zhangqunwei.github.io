@@ -14,10 +14,19 @@ Released   : 2017-05-21
 <title>张群伟的主页</title>
 <!--logo图标-->
 <link rel="icon"  href="static/image/favicon.ico"/>
+<!-- 在收藏夹中显示图标 -->
+<link rel="Bookmark"href="static/image/favicon.ico">
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- 音乐播放器 -->
+<script type="text/javascript" src="static/music/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="static/music/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="static/music/js/main.js"></script>
+
 </head>
+
 <body>
 <div id="wrapper">
 	<div id="header-wrapper">
@@ -30,7 +39,7 @@ Released   : 2017-05-21
 			<ul>
 				<li class="first"><a href="#">主页</a></li>
 				<li><a href="http://blog.csdn.net/w__l__">博客</a></li>
-				<li><a href="#">仓库</a></li>
+				<li><a href="https://github.com/zhangqunwei/">仓库</a></li>
 				<li><a href="zhangqunwei.html">简历</a></li>
 				<li><a href="#">联系</a></li>
 			</ul>
@@ -43,75 +52,105 @@ Released   : 2017-05-21
 	<div id="page">
 		<div id="content">
 			<div><a href="#"><img src="static/image/img10.jpg" alt="" id="banner" /></a></div>
+			<!-- MFC框架仿真---（1）类别信息网 -->
 			<div class="post">
-				<h2 class="title">欢迎来到张群伟的个人主页！（标题1）</h2>
+				<h2 class="title">MFC框架仿真---（1）类别信息网</h2>
 				<p class="date">张群伟 5, 2017</p>
 				<div class="entry">
 					<div class="entry-btm">
-						<p>内容1</p>
-						<p>内容2</p>
+						本次仿真的主要内容有： MFC的基本框架在基本框架的基础上添加类别信息网   代码阅读建议： 
+						读者对MFC基本框架了解： 读者只需看类别信息网部分，理解类别信息网的关键是一个结构体和几个宏，本质上就是通过结构体构建一个类别信息串行（也就是单链表）。...
 					</div>
 				</div>
 				<div class="meta">
-					<p class="links"><a href="#" class="comments">评论(64)</a> &nbsp;&nbsp;&nbsp; <a href="#" class="permalink">全文</a></p>
+					<div class="links">声明：本文参考侯杰的《深入浅出MFC》所得，仅供交流学习使用
+					<a href="http://blog.csdn.net/w__l__/article/details/68957149" class="permalink">全文</a></div>
 				</div>
 			</div>
+			<!-- linux权限管理命令 -->
 			<div class="post">
-				<h2 class="title">标题2</h2>
+				<h2 class="title">linux权限管理命令</h2>
 				<p class="date">张群伟 5, 2017</p>
 				<div class="entry">
 					<div class="entry-btm">
-						<p>内容1</p>
-						<p>内容2</p>
+						1.更改一个文件的所有者命令: 命令名称:      chown 命令英文名:    change file ownership 命令所在路径:  /bin/chown 执行权限:      所有用户 格式: chown [新的所有者] [文件或目录] 只有root改变一个文件的所有者 只有root可以添加一个用户 2.更改一个文件的所有组命令: 命令名称:      chg...
 					</div>
 				</div>
 				<div class="meta">
-					<p class="links"><a href="#" class="comments">评论 (64)</a> &nbsp;&nbsp;&nbsp; <a href="#" class="permalink">全文</a></p>
+					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载 <a href="http://blog.csdn.net/w__l__/article/details/70160859" class="permalink">全文</a></div>
 				</div>
 			</div>
+			<!-- llinux 基本命令 -->
+			<div class="post">
+				<h2 class="title">llinux 基本命令</h2>
+				<p class="date">张群伟 5, 2017</p>
+				<div class="entry">
+					<div class="entry-btm">
+						界面切换
+						字符界面 ——>
+						图形化界面   init5
+						图形化界面  ——> 字符界面   init3
+						重要热键
+						Tab 命令补全，文件路径补全
+						Ctrl+c  终止正在运行的程序
+						Ctrl+d  退出字符界面
+						用户管理类命令
+						1、添加用户    useradd 【选项】 用户名
+						2、删除用户    userdel 【选项】 用户名      -r   删除home中用户的文件 ...
+					</div>
+				</div>
+				<div class="meta">
+					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载&nbsp;&nbsp;&nbsp; <a href="http://blog.csdn.net/w__l__/article/details/70159656" class="permalink">全文</a></div>
+				</div>
+			</div>	
+			<!-- 背景音乐 -->
+			<div>
+				<audio controls height="100" width="100">
+				  <source src="static/music/Jesse.mp3" type="audio/mpeg">
+				  <source src="static/music/Jesse.ogg" type="audio/ogg">
+				  <embed height="50" width="100" src="static/music/Jesse.mp3">
+				</audio>
+			</div>		
 		</div>
 		<!-- end #content -->
 		<div id="sidebar">
 			<ul>
-				<li id="search">
+				<!-- 搜索 -->
+<!-- 				<li id="search">
 					<form method="get" action="">
 						<fieldset>
 						<input type="text" id="search-text" name="s" value="" />
 						<input type="submit" id="search-submit" value="" />
 						</fieldset>
 					</form>
-				</li>
+				</li> -->
 				<li>
 					<h2>博客</h2>
 					<ul>
-						<h3>我的博客</h3>
-						<li><a href="http://blog.csdn.net/w__l__/article/details/68957149">MFC框架仿真---（1）类别信息网</a></li>
-						<li><a href="http://blog.csdn.net/w__l__/article/details/69267393"> MFC框架仿真---（1）类别信息网之IsKindOf（）【型别辨识】</a></li>
-						<li><a href="http://blog.csdn.net/w__l__/article/details/70160943">shell学习笔记</a></li>
-						<li><a href="http://blog.csdn.net/w__l__/article/details/70145182">实验六---数字图像的噪声去除（MATLAB实现）</a></li>
-						<li><a href="http://blog.csdn.net/w__l__/article/details/61206415">直方图均衡化---图像处理</a></li>
-						<li><a href="#">内容6<br />
+					<h3>&nbsp;&nbsp;&nbsp;&nbsp;我的博客</h3>
+						<li><a href="http://blog.csdn.net/w__l__/article/details/68957149" title="MFC框架仿真---（1）类别信息网">MFC框架仿真---（1）类别信息网</a></li>
+						<li><a href="http://blog.csdn.net/w__l__/article/details/69267393" title="MFC框架仿真---（1）类别信息网之IsKindOf（）【型别辨识】"> MFC框架仿真---（1）类别信息网之IsKindOf（）【型别辨识】</a></li>
+						<li><a href="http://blog.csdn.net/w__l__/article/details/70160943" title="shell学习笔记">shell学习笔记</a></li>
+						<li><a href="http://blog.csdn.net/w__l__/article/details/70145182" title="实验六---数字图像的噪声去除（MATLAB实现）">实验六---数字图像的噪声去除（MATLAB实现）</a></li>
+						<li><a href="http://blog.csdn.net/w__l__/article/details/61206415" title="直方图均衡化---图像处理">直方图均衡化---图像处理</a></li>
+						<li><a href="#" title="内容6">内容6<br />
 						</a></li>
-						<h3>好的博客</h3>
-						<li><a href="http://blog.csdn.net/namecyf/article/details/7787479">vim配置及插件安装管理（超级详细）</a></li>
-						<li><a href="http://www.cnblogs.com/hqu-ye/articles/3595661.html">Visual Studio + VAssistX常用快捷键</a></li>
-						<li><a href="http://www.cnblogs.com/huangf714/p/5876359.html">微软编程规范(文档)</a></li>
-						<li><a href="http://blog.csdn.net/qq_20823641/article/details/51865384">MATLAB GUI handles与hObject的区别理解</a></li>
-						<li><a href="#">内容5</a></li>
-						<li><a href="#">内容6<br />
-						</a></li>
+					<br><h3>&nbsp;&nbsp;&nbsp;&nbsp;好的博客</h3>
+						<li><a href="http://blog.csdn.net/namecyf/article/details/7787479" title="vim配置及插件安装管理（超级详细）">vim配置及插件安装管理（超级详细）</a></li>
+						<li><a href="http://www.cnblogs.com/hqu-ye/articles/3595661.html" title="Visual Studio + VAssistX常用快捷键">Visual Studio + VAssistX常用快捷键</a></li>
+						<li><a href="http://www.cnblogs.com/huangf714/p/5876359.html" title="微软编程规范(文档)">微软编程规范(文档)</a></li>
+						<li><a href="http://blog.csdn.net/qq_20823641/article/details/51865384" title="MATLAB GUI handles与hObject的区别理解">MATLAB GUI handles与hObject的区别理解</a></li>
+						<li><a href="#" title="内容5">内容5</a></li>
 					</ul>
 				</li>
 				<li>
 					<h2>我的项目</h2>
 					<ul>
-						<li><a href="https://zhangqunwei.github.io/ImageProcessC10/">考试题 C10滤波3</a></li>
-						<li><a href="https://zhangqunwei.github.io/ImageProcessing_Matlab">基于MATLAB的图像处理软件</a></li>
-						<li><a href="https://zhangqunwei.github.io/ImageProcessing">基于MFC的图像处理软件</a></li>
-						<li><a href="https://zhangqunwei.github.io/vim">vim配置文件和插件</a></li>
-						<li><a href="#">项目5</a></li>
-						<li><a href="#">项目6</a></li>
-						</a></li>
+						<li><a href="https://zhangqunwei.github.io/ImageProcessC10/" title="考试题 C10滤波3">考试题 C10滤波3</a></li>
+						<li><a href="https://zhangqunwei.github.io/ImageProcessing_Matlab" title="基于MATLAB的图像处理软件">基于MATLAB的图像处理软件</a></li>
+						<li><a href="https://zhangqunwei.github.io/ImageProcessing" title="基于MFC的图像处理软件">基于MFC的图像处理软件</a></li>
+						<li><a href="https://zhangqunwei.github.io/vim" title="vim配置文件和插件">vim配置文件和插件</a></li>
+						<li><a href="#" title="项目5">项目5</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -124,8 +163,6 @@ Released   : 2017-05-21
 <div id="footer">
 	 <p><a class=sethome href=https://zhangqunwei.github.io/index.html target=_blank>设为首页</a>&nbsp;&nbsp;(c) 2017 张群伟&nbsp;&nbsp;<a href=http://jianyi.baidu.com target=_blank>意见反馈</a>&nbsp;&nbsp;<p>
 </div>
-
 <!-- end #footer -->
 </body>
 </html>
-<span style="display:none;"><a href="http://www.mobanwang.com" title="ÍøÒ³Ä£°åÏÂÔØ">ÍøÒ³Ä£°å</a></span>

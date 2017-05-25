@@ -148,7 +148,7 @@ hr { display: none; }
 	padding: 0px 20px 0px 22px;
 	text-decoration: none;
 	text-transform: lowercase;
-	font-size: 14px;
+	font-size: 18px;
 	color: #7B7B7B;
 }
 
@@ -163,7 +163,7 @@ hr { display: none; }
 
 
 /* Search */
-
+/*
 #search {
 	width: 220px;
 	padding-bottom: 10px;
@@ -201,7 +201,7 @@ hr { display: none; }
 	border: none;
 	color: #636363;
 }
-
+*/
 /* Page */
 
 #page {
@@ -217,6 +217,9 @@ hr { display: none; }
 	float: left;
 	width: 590px;
 }
+#content a {
+	color: #00ff00;
+}
 
 #banner {
 	padding-bottom: 40px;
@@ -230,7 +233,7 @@ hr { display: none; }
 
 .post .title {
 	height: 32px;
-	padding: 26px 0px 0px 30px;
+	padding: 12px 0px 0px 0px;
 	background: url(static/image/img06.jpg) no-repeat left top;
 	text-transform: lowercase;
 	font-size: 24px;
@@ -258,8 +261,10 @@ hr { display: none; }
 }
 
 .post .meta {
-	height: 38px;
-	padding-top: 10px;
+	margin-top:5px;
+	border-top:1px solid  #333;
+	height: 18px;
+	padding-top: 0px;
 	background: url(static/image/img09.jpg) no-repeat left top;
 }
 
@@ -270,13 +275,14 @@ hr { display: none; }
 }
 
 .post .entry-btm {
-	padding: 20px 30px;
+	padding: 0px 30px;
 	background: url(static/image/img08.jpg) no-repeat left bottom;
 }
 
 .post .links {
-	padding: 0px 30px 0px 0px;
-	text-align: right;
+	padding-left: 30px;
+	text-align: left;
+	color:	#006000;
 }
 
 .post .links .comments {
@@ -285,6 +291,7 @@ hr { display: none; }
 }
 
 .post .links .permalink {
+	float: right;
 	padding-left: 17px;
 	background: url(static/image/img15.gif) no-repeat left 3px;
 }
@@ -293,15 +300,20 @@ hr { display: none; }
 
 #sidebar {
 	float: right;
-	width: 220px;
+	width: 250px;	
 }
 
-#sidebar ul {
+#sidebar ul {	
 	margin: 0px;
 	list-style: none;
 	line-height: normal;
-	text-align: right;
+	text-align: left;
 	border: none;
+	white-space: nowrap;/* 禁止文字折行 */
+	text-overflow:clip;/*文本溢出时是否显示省略标记，有两个值：
+							clip：不显示省略标记（...），而是简单的裁切。
+							ellipsis：当对象内文本溢出时显示省略标记（...）*/
+	overflow:hidden;/*表示溢出内容为隐藏。*/	
 }
 
 #sidebar li {
@@ -309,15 +321,15 @@ hr { display: none; }
 }
 
 #sidebar li ul {
-	line-height: 200%;
+	line-height: 120%;
 	padding: 0px 30px;
-	background: url(static/image/img12.jpg) no-repeat left top;
+/*	background: url(static/image/img12.jpg) no-repeat left top;*/
 }
 
 #sidebar li li {
-	margin: 0;
+	margin: 0px;
 	padding: 7px 0px;
-	background: url(static/image/img13.jpg) repeat-x left bottom;
+/*	background: url(static/image/img13.jpg) repeat-x left bottom;*/
 }
 
 #sidebar p {
@@ -326,17 +338,20 @@ hr { display: none; }
 }
 
 #sidebar h2 {
-	width: 190px;
-	height: 26px;
-	padding: 20px 30px 0px 0px;
-	background: url(static/image/img11.jpg) no-repeat left top;
-	text-align: right;
+	width: 300px;
+	height: 25px;
+	padding: 8px 10px 0px 0px;
+	background: url(static/image/img11.jpg)   no-repeat center;
+	text-align: center;
 	text-transform: lowercase;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #0000FF;
 }
-
+#sidebar h3 {
+	text-align: left;
+	color:#ffff00;
+}
 
 #sidebar p {
 	line-height: 200%;
@@ -344,8 +359,17 @@ hr { display: none; }
 }
 
 #sidebar a {
+	padding: 0px 20px 0px 22px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 14px;
+	color: #7B7B7B;
+	/* text-decoration:none; */
 }
-
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #0098A4;
+}
 /* Calendar */
 
 #calendar {
