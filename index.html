@@ -102,6 +102,110 @@ Released   : 2017-05-21
 					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载&nbsp;&nbsp;&nbsp; <a href="http://blog.csdn.net/w__l__/article/details/70159656" class="permalink">全文</a></div>
 				</div>
 			</div>	
+			<!-- shell学习笔记 -->
+			<div class="post">
+				<h2 class="title">shell学习笔记</h2>
+				<p class="date">张群伟 5, 2017</p>
+				<div class="entry">
+					<div class="entry-btm">
+						shell学习笔记
+						**********************************
+						一：shell概述 
+						1.shell是命令解释器，它提供一个用户输入命令及输出信息的界面
+						用户输入-->shell-->内核-->硬件-->内核-->shell-->输出
+						2.shell的功能是翻译和编程
+						3.在  /etc/shells  中查看系统支持的shell版本，linux 默认使用bash        
+						4. cd 是shell内置的命令，不是linux系统命令
+						type cd 查看cd是不是shell内置的命令
+						type也是shell内置的命令
+						二：shell脚本执行方式                
+						1. shell变量的定义  
+						变量名=值...
+					</div>
+				</div>
+				<div class="meta">
+					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载&nbsp;&nbsp;&nbsp; <a href="http://blog.csdn.net/w__l__/article/details/70160943" class="permalink">全文</a></div>
+				</div>
+			</div>	
+			<!-- linux目录结构 -->
+			<div class="post">
+				<h2 class="title">linux目录结构</h2>
+				<p class="date">张群伟 5, 2017</p>
+				<div class="entry">
+					<div class="entry-btm" >
+						<table border="1" cellspacing="0" cellpadding="0" width="100%">
+						<tr style="width=100%;">
+						<td valign="top">
+						<p align="center">目录名</p>
+						</td>
+						<td valign="top">
+						<p align="center">目录作用</p>
+						</td>
+						</tr>
+						<tr>
+						<td valign="top">
+						<p align="center">/bin/</p>
+						</td>
+						<td valign="top">
+						<p>存放系统命令的目录，普通用户和超级用户都可以执行，不过放在/bin下的命令在单用户模式下也可以执行</p>
+						</td>
+						</tr>
+						<tr>
+						<td valign="top">
+						<p align="center">/sbin/</p>
+						</td>
+						<td valign="top">
+						<p>保存和系统环境设置相关的命令，只有超级用户可以使用这些命令进行系统环境设置，但是有些命令可以允许普通用户查看</p>
+						</td>
+						</tr>
+						<tr>
+						<td valign="top">
+						<p align="center">/usr/bin/</p>
+						</td>
+						<td valign="top">
+						<p>存放系统命令的目录，普通用户和超级用户都可以执行，这些命令和系统启动无关，在单用户模式下不能执行</p>
+						</td>
+						</tr>
+						</table>
+						...
+					</div>
+				</div>
+				<div class="meta">
+					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载&nbsp;&nbsp;&nbsp; <a href="http://blog.csdn.net/w__l__/article/details/70160212" class="permalink">全文</a></div>
+				</div>
+			</div>	
+			<!-- 实验六-数字图像的噪声去除（MATLAB实现） -->
+			<div class="post">
+				<h2 class="title">实验六---数字图像的噪声去除（MATLAB实现）</h2>
+				<p class="date">张群伟 5, 2017</p>
+				<div class="entry">
+					<div class="entry-btm" >
+						实验目的：
+						1. 自己编程实现均值滤波器和中值滤波器
+						2.对比两种滤波器对高斯噪声和椒盐噪声的去除效果
+						实验总结：
+						1. dX(i:i+(N-1)/2,j:j+(N-1)/2)=sum(sum( X(i:i+(N-1),j:j+(N-1)) ))/(N*N);
+						dX(i:i+(N-1)/2,j:j+(N-1)/2) ------为左值，取的是一个点
+						X(i:i+(N-1),j:j+(N-1))------为右值，取的是一个矩阵
+						2. s=temp(:);
+						temp为一个二维矩阵，temp(:) 表示将二维矩阵转为向量，转换时是按列转换，也就是将第二列补到第一列后面，依次类推
+						3.MATLAB中在同一个.m文件中定义多个函数需注意：
+						...
+					</div>
+				</div>
+				<div class="meta">
+					<div class="links">版权声明：本文为博主原创文章，未经博主允许不得转载&nbsp;&nbsp;&nbsp; <a href="http://blog.csdn.net/w__l__/article/details/70145182" class="permalink">全文</a></div>
+				</div>
+			</div>	
+
+
+
+
+
+
+
+
+
 			<!-- 背景音乐 -->
 			<div>
 				<audio controls height="100" width="100" autoplay="true" loop="loop">
