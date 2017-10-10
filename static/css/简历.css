@@ -26,7 +26,8 @@
 .icon-trophy:before { content: "\e80b"; }
 
 span {
-    display: inline-block;
+      display: inline-block;
+    
 }
 
 .label-value{
@@ -93,7 +94,7 @@ hr {
 
 .info-unit {
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .remodal-img h3 {
