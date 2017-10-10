@@ -123,7 +123,7 @@ hr {
 body {
     background-color: lightslategray;
     font-family: sans-serif, Microsoft Yahei, Helvetica Neue;
-    zoom: 80%;
+    zoom: 100%;
 }
 
 footer {
@@ -170,11 +170,11 @@ progress::-moz-progress-value {
 }
 
 .weixin{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #e0eaf0;   
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -192,7 +192,7 @@ progress::-moz-progress-value {
     margin-top:20px;
     margin-bottom: 10px;
     background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-size: 130%;
     background-position:center;
     border-radius:50%;
     border:5px solid #607d8b;
@@ -215,7 +215,11 @@ progress::-moz-progress-value {
     position: absolute;
     width: 360px;
     height: 100%;
+    /* 
     background-color: whitesmoke;
+    */
+    background-color: #e2e2e2;
+    
     padding-left: 20px;
     padding-right: 20px;
 }
