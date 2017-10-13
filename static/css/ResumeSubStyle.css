@@ -207,6 +207,18 @@ progress::-moz-progress-value {
     height:40mm;
 }
 
+.portraitEX {
+    margin: 0 auto;
+    margin-top:20px;
+    margin-bottom: 10px;
+    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background-size: 100%;
+    background-position:center;
+    border-radius:100%;
+    border:4px solid #607d8b;
+    width:40mm;
+    height:40mm;
+}
 
 .container {
     position: relative;
