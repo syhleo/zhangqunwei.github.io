@@ -300,7 +300,8 @@ hr { display: none; }
 
 #sidebar {
 	float: right;
-	width: 250px;	
+	width: 250px;
+	min-width: 0;	
 }
 
 #sidebar ul {	
@@ -310,7 +311,7 @@ hr { display: none; }
 	text-align: left;
 	border: none;
 	white-space: nowrap;/* 禁止文字折行 */
-	text-overflow:clip;/*文本溢出时是否显示省略标记，有两个值：
+	text-overflow:ellipsis;/*文本溢出时是否显示省略标记，有两个值：
 							clip：不显示省略标记（...），而是简单的裁切。
 							ellipsis：当对象内文本溢出时显示省略标记（...）*/
 	overflow:hidden;/*表示溢出内容为隐藏。*/	
