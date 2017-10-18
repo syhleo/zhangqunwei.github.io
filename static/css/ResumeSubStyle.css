@@ -94,6 +94,11 @@ hr {
 
 .info-unit {
     color: #666;        
+    margin-bottom: 10px;
+}
+
+.info-unit-left {
+    color: #666;        
     margin-bottom: 20px;
 }
 
