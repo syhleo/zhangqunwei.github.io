@@ -27,8 +27,11 @@ title: 关于我
 
 <p> 
 
-<p> 
+<p>   
 
 ![我的简历](/resume/zhangqunwei5.html)
+
+
+
 {% include comments.html %}
 
