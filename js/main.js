@@ -31,5 +31,6 @@ $(document).ready(function() {
      this.style.backgroundColor = '#00f';// 设置颜色后会自动消失
   });  
 
-  $('a.blog-button').css('font-size','16px');
+  $('i.nav-menu-item').css('font-size','16px');
+  $('i.nav-menu-item').css('color','#00f');
 });
