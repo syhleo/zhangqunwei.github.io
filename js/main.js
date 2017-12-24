@@ -11,7 +11,6 @@ $(document).ready(function() {
       $('.panel-cover').addClass('panel-cover--collapsed');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
-      $('a.blog-button').css('font-size',16px);
       $('.panel-cover').animate({'max-width': '320px', 'width': '22%'}, 400, swing = 'swing', function() {} );
     }
 
