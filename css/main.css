@@ -630,8 +630,8 @@ img::-moz-selection {
     text-align: left;  
     margin-left: 10px;
     margin-right: 10px;
-    font-size: .4em;
-    color: #666;
+    font-size: .8em;
+    color: #f00;
     border-bottom: 0.1px solid #666;
     text-shadow: none;
   }
@@ -681,7 +681,7 @@ img::-moz-selection {
     z-index: 9999;
     width: 100%;
     height: 40px;
-    background: rgba(51, 51, 51, 0.98);
+    background: rgba(51, 51, 51, 0.2);
     text-align: center; 
   }
   .btn-mobile-menu_item {
@@ -1375,7 +1375,7 @@ nav a {
   padding: 0px;
   color: #00f;
   font-weight: 700;
-  font-size: 14px;
+  font-size: .8em;
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
