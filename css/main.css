@@ -630,8 +630,6 @@ img::-moz-selection {
     text-align: left;  
     margin-left: 10px;
     margin-right: 10px;
-    font-size: .8em;
-    color: #f00;
     border-bottom: 0.1px solid #666;
     text-shadow: none;
   }
@@ -787,7 +785,6 @@ img::-moz-selection {
     font-family: 'entypo';
     font-weight: normal;
     font-style: normal;
-    font-size: 18px; 
   }
 
   .social {
