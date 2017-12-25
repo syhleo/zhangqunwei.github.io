@@ -30,8 +30,4 @@ $(document).ready(function() {
     // 导航按钮被点击
      this.style.backgroundColor = '#00f';// 设置颜色后会自动消失
   });  
-
-  $('a.btn-mobile-menu_item').css('font-size','16px');
-  $('a.blog-button').css('font-size','16px');
-  $('a.blog-button').css('color','#00f');
 });
