@@ -1374,9 +1374,9 @@ nav a {
 
 .nav-menu-item a {
   padding: 0px;
-  color: #999;
+  color: #00f;
   font-weight: 700;
-  font-size: .8em;
+  font-size: .14em;
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;

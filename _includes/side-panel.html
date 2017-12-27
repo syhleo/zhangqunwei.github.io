@@ -31,7 +31,7 @@
             </a>
         </div>
         <!-- 头像效果-end -->
-        <h1 class="panel-cover__title panel-title" style="font-family:STKaiti;">
+        <h1 class="panel-cover__title panel-title" style="font-family:STKaiti;font-size:16px">
           <a href="/#blog" title="link to homepage for {{ site.title }}" class="blog-button">{{ site.title }}</a>
         </h1>
         {% if site.subtitle %}
@@ -50,7 +50,9 @@
           <div>
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
+                <!-- title -->
                 <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
+                <!-- 博客主页，所有文章，标签，关于我 -->
                 {% for item in site.nav %}
                   <li class="navigation__item"><a href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
