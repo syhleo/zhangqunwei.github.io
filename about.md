@@ -29,8 +29,7 @@ title: 关于我
 
 <p>   
 
-[我的简历](/resume/zhangqunwei5.html)
-
+<a href="/resume/zhangqunwei5.html">我的简历</a>
 
 
 {% include comments.html %}
