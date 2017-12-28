@@ -11,8 +11,6 @@ tags: Visual Studio Code
     ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214413467-1.png)   
 
 2.将tasks.json中的内容改为如下所示，保存后即可。
-   <button id="copyBT">复制图中代码</button>    
-    ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)
     <span id="content" style="display:none">
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
@@ -27,12 +25,16 @@ tags: Visual Studio Code
         "showOutput": "never"
     }       
     </span>
+   <button id="copyBT">复制图中代码</button>    
+    
+![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)
+
      
 ３.在html文件下按住Ctrl + Shift + b即可使用系统默认的浏览器打开html文件。    
 
 - - - -
 
-###总结      
+### 总结      
     1. 我对json并不了解，但是看上面的代码大概意思是通过命令打开资源管理器，然后打开相应的html文件。整个过程类似你平时通过界面打开html文件一样，先鼠标双击打开资源管理器找到相应html文件然后双击该文件，系统调用默认的浏览器打开该文件。这里只不过是把整个过程变成一个类似脚本或Windows下的批处理的东西。    
     2. 在此之前我也看了一下网上其他的做法，其实都类似，只不过其他的都不太方便，都会有各种各样的问题。有的做法只针对当前路径下的html文件，每次都要改文件名，而且好像路径还必须不能有中文，有的是可以选择自己常用的浏览器来打开html，但是我试了，浏览器的路径中含有中文也是打不开。     
     3. 其实用浏览器打开html文件的方法有很多，比如    
@@ -43,7 +45,7 @@ tags: Visual Studio Code
 
 Visual Studio Code我也是刚用，很多地方都不太熟，希望路过的大牛不吝赐教。
 
-
+    
 <script>      
     function copyArticle(event) {         
         const range = document.createRange();         
