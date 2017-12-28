@@ -30,7 +30,7 @@ title: 关于我
 <p>   
 
 <a href="/resume/zhangqunwei5.html">我的简历</a>
-
+<a href="http://www.yangzhiping.com/tech/github.html">如何高效利用GitHub</a>
 
 {% include comments.html %}
 
