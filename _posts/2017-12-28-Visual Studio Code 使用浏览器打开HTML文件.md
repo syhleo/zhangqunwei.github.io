@@ -47,30 +47,18 @@ tags: VisualStudioCode
 Visual Studio Code我也是刚用，很多地方都不太熟，希望路过的大牛不吝赐教。
 
     
-<!-- <script>      
+<script>      
     function copyArticle(event) {         
-        const range = document.createRange();         
+        const range = document.body.createTextRange();         
         range.selectNode(document.getElementById('content'));
         const selection = window.getSelection();         
         if(selection.rangeCount > 0) 
         selection.removeAllRanges();         
         selection.addRange(range);
         document.execCommand('copy');
-         alert("复制成功！");       }
+         alert("复制成功！");      
+    }
          
 document.getElementById('copyBT').addEventListener('click', copyArticle, false);     
-</script>  -->
-
- <script type="text/javascript"> </script> 
-  <script type="text/javascript">
-function copyText(obj) { 
-    var rng = document.body.createTextRange(); 
-    rng.moveToElementText(obj); 
-    rng.scrollIntoView(); 
-    rng.select(); 
-    rng.execCommand("Copy"); 
-    rng.collapse(false); 
-    alert("复制成功!"); 
-    } 
-document.getElementById('copyBT').addEventListener('click', copyText, false); 
 </script> 
+
