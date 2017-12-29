@@ -13,7 +13,7 @@ tags: VisualStudioCode
 2.将tasks.json中的内容改为如下所示，保存后即可。   
 ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)   
 * 图中代码如下     
-
+```
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
         // for the documentation about the tasks.json format
@@ -26,7 +26,7 @@ tags: VisualStudioCode
         "args": ["${file}"],
         "showOutput": "never"
     }        
-
+```
 ３.在html文件下按住Ctrl + Shift + b即可使用系统默认的浏览器打开html文件。    
 
 - - - - - - - - - - - - - - - - - - - - - - - -
