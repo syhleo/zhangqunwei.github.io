@@ -11,7 +11,9 @@ tags: VisualStudioCode
     ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214413467-1.png)   
 
 2.将tasks.json中的内容改为如下所示，保存后即可。   
-    <span id="content" style="display:none">
+![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)   
+* 图中代码如下     
+
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
         // for the documentation about the tasks.json format
@@ -23,17 +25,11 @@ tags: VisualStudioCode
         "isShellCommand": true,
         "args": ["${file}"],
         "showOutput": "never"
-    }       
-    </span>
-   <button id="copyBT">复制图中代码</button>    
-    
-![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)
+    }        
 
-
-     
 ３.在html文件下按住Ctrl + Shift + b即可使用系统默认的浏览器打开html文件。    
 
-- - - -
+- - - - - - - - - - - - - - - - - - - - - - - -
 
 ### 总结      
 1. 我对json并不了解，但是看上面的代码大概意思是通过命令打开资源管理器，然后打开相应的html文件。整个过程类似你平时通过界面打开html文件一样，先鼠标双击打开资源管理器找到相应html文件然后双击该文件，系统调用默认的浏览器打开该文件。这里只不过是把整个过程变成一个类似脚本或Windows下的批处理的东西。    
@@ -45,20 +41,3 @@ tags: VisualStudioCode
 ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621222730544-3.png)
 
 Visual Studio Code我也是刚用，很多地方都不太熟，希望路过的大牛不吝赐教。
-
-    
-<script>      
-    function copyArticle(event) {         
-        const range = document.body.createTextRange();         
-        range.selectNode(document.getElementById('content'));
-        const selection = window.getSelection();         
-        if(selection.rangeCount > 0) 
-        selection.removeAllRanges();         
-        selection.addRange(range);
-        document.execCommand('copy');
-         alert("复制成功！");      
-    }
-         
-document.getElementById('copyBT').addEventListener('click', copyArticle, false);     
-</script> 
-
