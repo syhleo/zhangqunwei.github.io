@@ -20,15 +20,15 @@ tags: Autotools linux
 
 ---
 
-### 操作流程    
+### 操作流程   
+
 注：命令均在 test1目录下执行   
     
+
 * `autoscan`　\[auto scan 自动扫描\]   
     作用：扫描当前目录   
     产生文件：configure.scan    
-
 * 修改configure.scan后缀名为.ac  
-
 * 修改configure.ac文件中的内容如下 
     ```   
     ...    
@@ -57,10 +57,10 @@ tags: Autotools linux
 * `make install`　　　安装到系统    
 * `make dist` 　　　自动打包    
 
-### 操作演示：
+### 操作演示
 ![这里写图片描述](/images/post/2017-12-29-Autotools基本使用/20170619111042660-1.gif)
 
-## 总结：
+### 总结：
 一图胜过千言万语
 
 ![一图胜过千言万语](/images/post/2017-12-29-Autotools基本使用/20170619111726371-2.bmp)
