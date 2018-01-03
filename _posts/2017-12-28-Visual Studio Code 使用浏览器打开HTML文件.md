@@ -8,10 +8,10 @@ tags: VisualStudioCode
 
 ### 步骤如下   
 1. 同时按住Ctrl + Shift + p打开如下图所示，输入ctr后选择第二项，打开tasks.json文件。    
-    ![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214413467-1.png)   
+    ![这里写图片描述](/images/post/2017-12-28-VisualStudioCode使用浏览器打开HTML文件/20170621214413467-1.png)   
 
 2.将tasks.json中的内容改为如下所示，保存后即可。   
-![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)   
+![这里写图片描述](/images/post/2017-12-28-VisualStudioCode使用浏览器打开HTML文件/20170621214515922-2.png)   
 * 图中代码如下     
     ```
     {
@@ -38,6 +38,6 @@ tags: VisualStudioCode
     3.1. 用Ctrl + Shift + V预览，不过我刚试了一下效果不太好。    
     3.2. 在终端下输入文件名打开，你可能会觉得输入文件名比较慢，但是不必担心，终端下支持Tab自动补全，和linux环境下一样。    
 
-![这里写图片描述](/images/post/VisualStudioCode使用浏览器打开HTML文件/20170621222730544-3.png)
+![这里写图片描述](/images/post/2017-12-28-VisualStudioCode使用浏览器打开HTML文件/20170621222730544-3.png)
 
 Visual Studio Code我也是刚用，很多地方都不太熟，希望路过的大牛不吝赐教。
