@@ -3,26 +3,30 @@ layout: page
 title: 关于我 
 ---
 
-一个 嵌入式软件开发者，喜欢研究和学习。
-<p>
-<p>
-<p>
-### ABOUT ME
-#### [简历](https://zhangqunwei.github.io/resume/zhangqunweiMAIN.html)
+一个 嵌入式软件开发者，喜欢研究和学习。    
 
-#### [CSDN](http://blog.csdn.net/w__l__)
+  
+### ABOUT ME      
+  
+#### [简历](https://zhangqunwei.github.io/resume/zhangqunweiMAIN.html)     
 
-#### [github](https://github.com/zhangqunwei)
+#### [CSDN](http://blog.csdn.net/w__l__)    
+
+#### [github](https://github.com/zhangqunwei)      
 
 <p>
 <p>
 <p>
 
 ### RECOMMEND
-#### [voyagelab技术博客](http://talkingdata.me/)
-#### [如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
-#### [git 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
-#### [怎样使用 GitHub？](https://www.zhihu.com/question/20070065)
+
+#### [voyagelab技术博客](http://talkingdata.me/)      
+
+#### [如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)      
+
+#### [git 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)      
+
+#### [怎样使用 GitHub？](https://www.zhihu.com/question/20070065)      
 
 
 {% include comments.html %}
