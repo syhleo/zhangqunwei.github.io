@@ -4,35 +4,22 @@ title: 关于我
 ---
 
 一个 嵌入式软件开发者，喜欢研究和学习。
-<p>
 
-推荐一个博客模板原作者维护的 Team 博客
-<a target="_blank" href="http://talkingdata.me/"> voyagelab </a>
-里面有一些关于 iOS 、Android 和 机器学习 的文章。
+### ABOUT ME
+#### [简历](https://zhangqunwei.github.io/resume/zhangqunweiMAIN.html)
+---------
+#### [CSDN](http://blog.csdn.net/w__l__)
+---------
+#### [github](https://github.com/zhangqunwei)
+---------
 
 
 
-<p> 
-
-<p>   
-<a href="http://www.yangzhiping.com/tech/github.html">如何高效利用GitHub</a>
-
-<p>
-<p>
-<p>
-<p>
-<h2><a href="/resume/zhangqunweiMAIN.html">我的简历</a></h2>
-<p>
-<p>
-<p>
-<p>
-<h2><a href="http://rogerdudler.github.io/git-guide/index.zh.html">git 简明指南</a></h2>
-<p>
-<p>
-<p>
-<p>
-<h2><a href="https://www.zhihu.com/question/20070065">怎样使用 GitHub？</a></h2>
-
+### RECOMMEND
+#### 一个博客模板原作者维护的 Team 博客[voyagelab](http://talkingdata.me/)里面有一些关于 iOS 、Android 和 机器学习 的文章。
+#### [如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
+#### [git 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+#### [怎样使用 GitHub？](https://www.zhihu.com/question/20070065)
 
 
 {% include comments.html %}
