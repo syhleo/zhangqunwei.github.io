@@ -175,7 +175,8 @@ blockquote p:last-child {
 ol, ul {
   margin: 0 0 1.3em 2.5em; }
 ol li, ul li {
-  margin: 0 0 .2em 0;
+  margin-left: 3.2em;
+  margin-bottom: .2em;
   line-height: 1.6em; }
 ol ol, ol ul, ul ol, ul ul {
   margin: .1em 0 .2em 2em; }
@@ -720,7 +721,7 @@ img::-moz-selection {
     padding: 5px 5px 5px 5px;
     font-size: .6em;
     text-shadow: none;
-    color: #0ff;
+    color: #eee;
   }
   .navigation__item {
     display: inline-block;
@@ -738,7 +739,7 @@ img::-moz-selection {
   }
 
   .navigation__item a:hover {
-    color: #fff;
+    color: #0f0;
   }
 
   .navigation__item_social {
