@@ -2,7 +2,7 @@
 layout: post
 title: Autotools基本使用
 date: 2017-12-29 
-tags: Autotools linux    
+tags: 工具使用    
 ---
 
 ### 准备工作
